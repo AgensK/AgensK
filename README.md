@@ -18,7 +18,7 @@
 
 ### 📫 联系方式：
 
-个人技术博客：www.jzsd.me 欢迎 follow
+个人技术博客：www.ninthbit.org 欢迎 follow
 
 ### ⚡ 过往技术沉淀：
 
