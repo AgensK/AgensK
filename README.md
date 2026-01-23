@@ -1,29 +1,99 @@
-# 👋 欢迎来到我的 GitHub 主页
+# Hi there, I'm Kieran (静水深流) 👋
 
-你好！我是一名深耕技术领域的开发者，目前聚焦于鸿蒙生态与跨平台技术优化。期待与志同道合的伙伴交流碰撞～
+> A software engineer building useful & beautiful things, bridging the gap between low-level systems and high-level AI applications.
 
-## 🚀 关于我
+I'm a senior software engineer with 5+ years of experience, passionate about everything from compiler technology to AI-native applications. My journey has taken me from building the backend architecture for the **[Cangjie programming language](https://github.com/Cangjie-lang/cangjie)**, to providing system-level performance tuning for top-tier apps like **Feishu, Douyin, and Bilibili**.
 
-### 🔭 当前研究方向：
+Currently, I'm diving deep into the world of AI as an indie developer, exploring how to build the next generation of developer tools and intelligent agents.
 
-专注于鸿蒙应用的稳定性攻坚与性能调优，通过底层日志分析、内存泄漏定位、UI 渲染优化等手段提升应用体验；同时也在学习 KMP（Kotlin Multiplatform）跨平台方案，探索在不同终端（鸿蒙、Android、iOS）的编译优化与运行时效率提升策略
+---
 
-### 🌱 正在学习与实践：
+- 🔭 **I’m currently working on**: An automated mobile testing platform using Alibaba's **Mobile-Agent-v2 (MAIUI)** model.
+- 🌱 **I’m currently learning**: Advanced concepts in AI Agents and exploring the world of **Blockchain**.
+- 👯 **I’m looking to collaborate on**: Open-source developer tools, AI-native applications, and anything that pushes the boundaries of human-computer interaction.
+- 💬 **Ask me about**: System performance tuning, multi-threading, compiler tech, backend architecture, and AI agent development.
+- 📫 **How to reach me**: [Email](mailto:oldmeatovo@gmail.com) | [Website/Blog](https://ninthbit.org) | [Twitter](https://twitter.com/ninthbit_ai)
+- ⚡ **Fun fact**: I transitioned from a degree in Finance to a career in software engineering, driven by a passion for building things. I'm also deeply interested in philosophy and traditional Chinese thought (儒释道, 王阳明心学).
 
-积极探索 AIGC 领域的工作流搭建，包括基于 Vibe Coding 的沉浸式开发模式、RAG（检索增强生成）技术在代码辅助生成中的应用，以及 MCP（多模态内容处理）的跨领域融合；正通过实际项目落地这些技术，尝试构建智能化的开发辅助工具链。
+---
 
-### 💡 兴趣与规划：
+## My Tech Stack
 
-对 web3 行业的底层技术架构（如区块链协议、智能合约引擎）抱有浓厚兴趣，计划结合自身编译器开发经验，深入研究链上合约的安全编译与执行效率优化，希望能逐步参与到 web3 生态的技术建设中。
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <div align="center">
+        <strong>Backend & Systems</strong>
+      </div>
+      <div align="center">
+        <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+        <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
+        <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
+        <img src="https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=grpc&logoColor=white" alt="gRPC"/>
+        <img src="https://img.shields.io/badge/protobuf-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Protobuf"/>
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+      </div>
+      <br>
+      <div align="center">
+        <sub>
+          <strong>Specialties:</strong> Multi-threading, Performance Tuning (GDB, perf), Memory Analysis (T-SAN, A-SAN)
+        </sub>
+      </div>
+    </td>
+    <td valign="top" width="50%">
+      <div align="center">
+        <strong>Frontend & Full-Stack</strong>
+      </div>
+      <div align="center">
+        <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+        <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
+        <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <div align="center">
+        <strong>AI & Data</strong>
+      </div>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+        <img src="https://img.shields.io/badge/LangChain-00865D?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+      </div>
+      <br>
+      <div align="center">
+        <sub>
+          <strong>Specialties:</strong> AI Native/Agent Development, Context/Prompt Engineering
+        </sub>
+      </div>
+    </td>
+    <td valign="top" width="50%">
+      <div align="center">
+        <strong>Tools & DevOps</strong>
+      </div>
+      <div align="center">
+        <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+        <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+        <img src="https://img.shields.io/badge/VIM-%23019733.svg?style=for-the-badge&logo=vim&logoColor=white" alt="Vim"/>
+        <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VSCode"/>
+      </div>
+    </td>
+  </tr>
+</table>
 
-### 📫 联系方式：
+---
 
-个人技术博客：www.ninthbit.org 欢迎 follow
+## My GitHub Stats
 
-### ⚡ 过往技术沉淀：
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nonabit&show_icons=true&theme=radical&count_private=true" alt="Kieran's GitHub Stats"/>
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nonabit&layout=compact&theme=radical" alt="Top Languages"/>
+</div>
 
-曾深度参与编译器与 IDE 开发，作为核心开发者参与仓颉语言服务器（Language Server）的架构搭建与功能迭代。
- 
-## ✨ 结语
+---
 
-技术探索的路上，我始终相信 “深耕与跨界并重”—— 既扎根于底层技术的打磨，也乐于拥抱新兴领域的可能性。让我们一起在技术的世界里持续精进～ 🌟
+> "Use sharing and expression to keep yourself growing."
