@@ -2,7 +2,7 @@
 
 > A software engineer building useful & beautiful things, bridging the gap between low-level systems and high-level AI applications.
 
-I'm a senior software engineer with 5+ years of experience, passionate about everything from compiler technology to AI-native applications. My journey has taken me from building the backend architecture for the **[Cangjie programming language](https://github.com/Cangjie-lang/cangjie)**, to providing system-level performance tuning for top-tier apps like **Feishu, Douyin, and Bilibili**.
+I'm a senior software engineer with 5+ years of experience, passionate about everything from compiler technology to AI-native applications. My journey has taken me from building the backend architecture for the **Cangjie programming language server**, to providing system-level performance tuning for top-tier apps like **Feishu, Douyin, and Bilibili**.
 
 Currently, I'm diving deep into the world of AI as an indie developer, exploring how to build the next generation of developer tools and intelligent agents.
 
