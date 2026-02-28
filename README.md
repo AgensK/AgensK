@@ -1,4 +1,4 @@
-# Hi there, I'm Kieran (静水深流) 👋
+# Hi there, I'm KK 👋
 
 > A software engineer building useful & beautiful things, bridging the gap between low-level systems and high-level AI applications.
 
