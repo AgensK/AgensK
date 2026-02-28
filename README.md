@@ -1,99 +1,137 @@
-# Hi there, I'm KK 👋
+# Hi, I'm KK 👋
 
-> A software engineer building useful & beautiful things, bridging the gap between low-level systems and high-level AI applications.
+> I build practical tools at the intersection of systems engineering and AI-native applications.
 
-I'm a senior software engineer with 5+ years of experience, passionate about everything from compiler technology to AI-native applications. My journey has taken me from building the backend architecture for the **Cangjie programming language server**, to providing system-level performance tuning for top-tier apps like **Feishu, Douyin, and Bilibili**.
-
-Currently, I'm diving deep into the world of AI as an indie developer, exploring how to build the next generation of developer tools and intelligent agents.
-
----
-
-- 🔭 **I’m currently working on**: An automated mobile testing platform using Alibaba's **Mobile-Agent-v2 (MAIUI)** model.
-- 🌱 **I’m currently learning**: Advanced concepts in AI Agents and exploring the world of **Blockchain**.
-- 👯 **I’m looking to collaborate on**: Open-source developer tools, AI-native applications, and anything that pushes the boundaries of human-computer interaction.
-- 💬 **Ask me about**: System performance tuning, multi-threading, compiler tech, backend architecture, and AI agent development.
-- 📫 **How to reach me**: [Email](mailto:oldmeatovo@gmail.com) | [Website/Blog](https://ninthbit.org) | [Twitter](https://twitter.com/ninthbit_ai)
-- ⚡ **Fun fact**: I transitioned from a degree in Finance to a career in software engineering, driven by a passion for building things. I'm also deeply interested in philosophy and traditional Chinese thought (儒释道, 王阳明心学).
+I focus on shipping work that is technically solid and directly useful to developers.
+- Systems performance: concurrency, memory, and low-level optimization
+- Tooling and infrastructure: compiler/language tooling and engineering productivity
+- AI-native products: agents, automation workflows, and developer tooling
 
 ---
 
-## My Tech Stack
+## Signature Work
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <div align="center">
-        <strong>Backend & Systems</strong>
-      </div>
-      <div align="center">
-        <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
-        <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
-        <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
-        <img src="https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=grpc&logoColor=white" alt="gRPC"/>
-        <img src="https://img.shields.io/badge/protobuf-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Protobuf"/>
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-      </div>
-      <br>
-      <div align="center">
-        <sub>
-          <strong>Specialties:</strong> Multi-threading, Performance Tuning (GDB, perf), Memory Analysis (T-SAN, A-SAN)
-        </sub>
-      </div>
-    </td>
-    <td valign="top" width="50%">
-      <div align="center">
-        <strong>Frontend & Full-Stack</strong>
-      </div>
-      <div align="center">
-        <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
-        <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-        <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
-        <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      <div align="center">
-        <strong>AI & Data</strong>
-      </div>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-        <img src="https://img.shields.io/badge/LangChain-00865D?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-      </div>
-      <br>
-      <div align="center">
-        <sub>
-          <strong>Specialties:</strong> AI Native/Agent Development, Context/Prompt Engineering
-        </sub>
-      </div>
-    </td>
-    <td valign="top" width="50%">
-      <div align="center">
-        <strong>Tools & DevOps</strong>
-      </div>
-      <div align="center">
-        <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-        <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-        <img src="https://img.shields.io/badge/VIM-%23019733.svg?style=for-the-badge&logo=vim&logoColor=white" alt="Vim"/>
-        <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VSCode"/>
-      </div>
-    </td>
-  </tr>
-</table>
+- **Cangjie Language Server (Backend Architecture)**  
+  Built backend architecture and core service capabilities for compiler-adjacent tooling.
+
+- **Performance Engineering for Large-Scale Apps**  
+  Delivered system-level performance tuning in production contexts (including Feishu, Douyin, and Bilibili).
+
+- **AI-Driven Mobile Testing Platform (Current)**  
+  Building an automated mobile testing platform on top of **Mobile-Agent-v2 (MAIUI)**.
 
 ---
 
-## My GitHub Stats
+## Featured Projects
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nonabit&show_icons=true&theme=radical&count_private=true" alt="Kieran's GitHub Stats"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nonabit&layout=compact&theme=radical" alt="Top Languages"/>
+  <a href="https://github.com/AgensK/Sinan">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AgensK&repo=Sinan&theme=tokyonight" alt="Sinan repository card" />
+  </a>
+  <a href="https://github.com/AgensK/VibeBar">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AgensK&repo=VibeBar&theme=tokyonight" alt="VibeBar repository card" />
+  </a>
+  <br />
+  <a href="https://github.com/AgensK/TrustSkill">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AgensK&repo=TrustSkill&theme=tokyonight" alt="TrustSkill repository card" />
+  </a>
+  <a href="https://github.com/AgensK/jsonrpc4cj">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AgensK&repo=jsonrpc4cj&theme=tokyonight" alt="jsonrpc4cj repository card" />
+  </a>
 </div>
 
 ---
 
-> "Use sharing and expression to keep yourself growing."
+## Current Focus
+
+- Shipping AI-native developer products with strong reliability and observability
+- Publishing implementation notes on systems + AI engineering
+- Exploring multi-agent collaboration and blockchain engineering patterns
+
+---
+
+## Output Channels
+
+- **Open Source Repositories**: [github.com/AgensK?tab=repositories](https://github.com/AgensK?tab=repositories)
+- **Writing / Notes**: [ninthbit.org](https://ninthbit.org)
+- **Build in Public Updates**: [@ninthbit_ai](https://twitter.com/ninthbit_ai)
+
+<p>
+  <img src="https://img.shields.io/github/followers/AgensK?style=for-the-badge&logo=github" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/AgensK?style=for-the-badge&logo=github" alt="GitHub stars" />
+</p>
+
+---
+
+## Selected Writing
+
+- **RSS Feed**: [ninthbit.org/rss.xml](https://ninthbit.org/rss.xml)
+- **All Articles**: [ninthbit.org](https://ninthbit.org)
+- **Latest Posts (from RSS)**:
+  - [2025 Year-End Reflection](https://ninthbit.org/blog/en/my-2025-summary/) — 2025-12-25
+  - [YouMind Content Creation SOP for WeChat Articles](https://ninthbit.org/blog/en/youmind-sop/) — 2025-12-13
+  - [Why Do We Set Out](https://ninthbit.org/blog/en/why-do-we-set-out/) — 2025-12-04
+  - [The Magic of MDX: From Text to Interaction](https://ninthbit.org/blog/en/using-mdx/) — 2025-11-25
+
+<a href="https://ninthbit.org/rss.xml">
+  <img src="https://img.shields.io/badge/Subscribe-RSS-orange?style=for-the-badge&logo=rss&logoColor=white" alt="RSS subscription badge" />
+</a>
+
+---
+
+## Tech Stack (Derived from Code)
+
+<!-- TECH_STACK_START -->
+_Data source: GitHub Linguist bytes from `Sinan`, `VibeBar`, `TrustSkill`, and `jsonrpc4cj`._
+_Last refreshed: 2026-02-28 16:39 CST._
+
+| Language | Share (bytes) | Repositories |
+| --- | ---: | --- |
+| Python | 53.2% | Sinan, TrustSkill |
+| Swift | 18.5% | VibeBar |
+| TypeScript | 14.6% | Sinan |
+| CSS | 6.9% | Sinan |
+| Shell | 6.6% | VibeBar |
+| JavaScript | 0.1% | Sinan |
+| HTML | 0.1% | Sinan |
+| Cangjie* | N/A | jsonrpc4cj |
+
+\* GitHub Linguist currently does not classify Cangjie, so percentage shares exclude `.cj` files.
+<!-- TECH_STACK_END -->
+
+_Refresh command: `scripts/update_tech_stack.sh`_
+
+---
+
+## What I Care About
+
+- Reliability and observability of AI agents in production
+- Developer experience: moving from “works” to “feels great”
+- Applying systems engineering discipline to high-performance AI applications
+
+---
+
+## GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AgensK&show_icons=true&count_private=true&theme=tokyonight" alt="AgensK GitHub stats" />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AgensK&layout=compact&theme=tokyonight" alt="AgensK top languages" />
+  <br />
+  <img src="https://streak-stats.demolab.com?user=AgensK&theme=tokyonight&hide_border=true" alt="AgensK contribution streak" />
+  <br />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AgensK&theme=tokyo-night&hide_border=true" alt="AgensK activity graph" />
+</div>
+
+---
+
+## Contact
+
+- 📫 Email: [oldmeatovo@gmail.com](mailto:oldmeatovo@gmail.com)
+- 🌍 Blog: [ninthbit.org](https://ninthbit.org)
+- 𝕏 Twitter: [@ninthbit_ai](https://twitter.com/ninthbit_ai)
+- 💬 Topics: performance tuning, compiler tooling, backend architecture, and AI agent engineering
+
+---
+
+> Build useful things. Share what works. Keep compounding.
