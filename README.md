@@ -24,21 +24,12 @@ I focus on shipping work that is technically solid and directly useful to develo
 
 ## Featured Projects
 
-<div align="center">
-  <a href="https://github.com/AgensK/Sinan">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AgensK&repo=Sinan&theme=tokyonight" alt="Sinan repository card" />
-  </a>
-  <a href="https://github.com/AgensK/VibeBar">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AgensK&repo=VibeBar&theme=tokyonight" alt="VibeBar repository card" />
-  </a>
-  <br />
-  <a href="https://github.com/AgensK/TrustSkill">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AgensK&repo=TrustSkill&theme=tokyonight" alt="TrustSkill repository card" />
-  </a>
-  <a href="https://github.com/AgensK/jsonrpc4cj">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AgensK&repo=jsonrpc4cj&theme=tokyonight" alt="jsonrpc4cj repository card" />
-  </a>
-</div>
+| Project | Snapshot |
+| --- | --- |
+| [**Sinan**](https://github.com/AgensK/Sinan) | ![Sinan top language](https://img.shields.io/github/languages/top/AgensK/Sinan?style=flat-square) ![Sinan stars](https://img.shields.io/github/stars/AgensK/Sinan?style=flat-square) ![Sinan last commit](https://img.shields.io/github/last-commit/AgensK/Sinan?style=flat-square) |
+| [**VibeBar**](https://github.com/AgensK/VibeBar) | ![VibeBar top language](https://img.shields.io/github/languages/top/AgensK/VibeBar?style=flat-square) ![VibeBar stars](https://img.shields.io/github/stars/AgensK/VibeBar?style=flat-square) ![VibeBar last commit](https://img.shields.io/github/last-commit/AgensK/VibeBar?style=flat-square) |
+| [**TrustSkill**](https://github.com/AgensK/TrustSkill) | ![TrustSkill top language](https://img.shields.io/github/languages/top/AgensK/TrustSkill?style=flat-square) ![TrustSkill stars](https://img.shields.io/github/stars/AgensK/TrustSkill?style=flat-square) ![TrustSkill last commit](https://img.shields.io/github/last-commit/AgensK/TrustSkill?style=flat-square) |
+| [**jsonrpc4cj**](https://github.com/AgensK/jsonrpc4cj) | ![jsonrpc4cj stars](https://img.shields.io/github/stars/AgensK/jsonrpc4cj?style=flat-square) ![jsonrpc4cj last commit](https://img.shields.io/github/last-commit/AgensK/jsonrpc4cj?style=flat-square) |
 
 ---
 
@@ -114,9 +105,11 @@ _Refresh command: `scripts/update_tech_stack.sh`_
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AgensK&show_icons=true&count_private=true&theme=tokyonight" alt="AgensK GitHub stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AgensK&theme=tokyonight" alt="AgensK GitHub stats card" />
   <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AgensK&layout=compact&theme=tokyonight" alt="AgensK top languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AgensK&theme=tokyonight" alt="AgensK language distribution card" />
+  <br />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AgensK&theme=tokyonight" alt="AgensK profile details card" />
   <br />
   <img src="https://streak-stats.demolab.com?user=AgensK&theme=tokyonight&hide_border=true" alt="AgensK contribution streak" />
   <br />
