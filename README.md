@@ -102,19 +102,6 @@ _Refresh command: `scripts/update_tech_stack.sh`_
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AgensK&theme=tokyonight" alt="AgensK GitHub stats card" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AgensK&theme=tokyonight" alt="AgensK language distribution card" width="49%" />
-  <br />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AgensK&theme=tokyonight" alt="AgensK profile details card" />
-  <br />
-  <img src="https://streak-stats.demolab.com?user=AgensK&theme=tokyonight&hide_border=true" alt="AgensK contribution streak" />
-</div>
-
----
-
 ## Contact
 
 - 📫 Email: [oldmeatovo@gmail.com](mailto:oldmeatovo@gmail.com)
