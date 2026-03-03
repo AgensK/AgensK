@@ -1,4 +1,4 @@
-# Hi, I'm KK 👋
+# Hi, I'm Mo Ran 👋
 
 > I build practical tools at the intersection of systems engineering and AI-native applications.
 
