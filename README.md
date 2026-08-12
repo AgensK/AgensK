@@ -24,6 +24,14 @@ I build at the intersection of AI and developer tooling — agents, automation, 
 | [**MindBack**](https://github.com/BubblePtr/MindBack) | Open-source attention tracker — Rust + Tauri |
 | [**VibeBar**](https://github.com/BubblePtr/VibeBar) | Native macOS menu bar app to track AI coding tool usage |
 
+## Upstream Contributions
+
+Bug reports and proposals landed in projects I use:
+
+- [**facebook/astryx**](https://github.com/facebook/astryx) — three confirmed UI bugs with minimal reproductions ([#4830](https://github.com/facebook/astryx/issues/4830), [#4833](https://github.com/facebook/astryx/issues/4833), [#4834](https://github.com/facebook/astryx/issues/4834)), all fixed upstream within days
+- [**AlDanial/cloc**](https://github.com/AlDanial/cloc) — proposed Cangjie language support ([#895](https://github.com/AlDanial/cloc/issues/895)), now shipped
+- Bug reports in [tw93/Mole](https://github.com/tw93/Mole/issues/1108), [doocs/md](https://github.com/doocs/md/issues/1144), and [666ghj/BettaFish](https://github.com/666ghj/BettaFish/issues/244)
+
 ## Current Focus
 
 - 🚀 Shipping AI-native products and tools, full-time
