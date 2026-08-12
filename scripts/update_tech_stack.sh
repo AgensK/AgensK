@@ -4,26 +4,24 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 README_PATH="$ROOT_DIR/README.md"
 
-GITHUB_USER="AgensK"
-REPOS=("Sinan" "VibeBar" "TrustSkill" "jsonrpc4cj")
+GITHUB_USER="BubblePtr"
+REPOS=("PiGUI" "AgentHuntify" "LawTriage" "gtrboard" "ZenBlog" "Voily" "VibeBar" "concerto" "MindBack")
 
 payload_file="$(mktemp)"
 echo "[]" > "$payload_file"
 
+# Use gh (authenticated) so private repos and higher rate limits work.
 for repo in "${REPOS[@]}"; do
-  lang_json="$(curl -fsSL "https://api.github.com/repos/${GITHUB_USER}/${repo}/languages")"
+  if ! lang_json="$(gh api "repos/${GITHUB_USER}/${repo}/languages")"; then
+    echo "Failed to fetch languages for ${GITHUB_USER}/${repo}" >&2
+    exit 1
+  fi
   tmp_file="$(mktemp)"
   jq --arg repo "$repo" --argjson langs "$lang_json" \
     '. + [{repo: $repo, langs: $langs}]' \
     "$payload_file" > "$tmp_file"
   mv "$tmp_file" "$payload_file"
 done
-
-# GitHub Linguist does not classify Cangjie yet, so detect it via file extensions.
-cangjie_file_count="$(
-  curl -fsSL "https://api.github.com/repos/${GITHUB_USER}/jsonrpc4cj/git/trees/main?recursive=1" \
-    | jq '[.tree[] | select(.path | endswith(".cj"))] | length'
-)"
 
 rows_json="$(jq '
   def totals:
@@ -32,9 +30,18 @@ rows_json="$(jq '
     | map({lang: .[0].key, bytes: (map(.value) | add)});
 
   def repos_per_lang:
-    [ .[] as $item | ($item.langs | keys[]) as $lang | {lang: $lang, repo: $item.repo} ]
+    # Rank repos within a language by their byte count so "Key Repos" shows
+    # the most representative ones first, capped at 4 to keep rows short.
+    [ .[] as $item
+      | ($item.langs | to_entries[]) as $entry
+      | {lang: $entry.key, repo: $item.repo, bytes: $entry.value} ]
     | group_by(.lang)
-    | map({lang: .[0].lang, repos: (map(.repo) | unique | join(", "))});
+    | map({
+        lang: .[0].lang,
+        # Each repo appears at most once per language, so no dedupe needed;
+        # jq unique would re-sort alphabetically and destroy the byte order.
+        repos: (sort_by(-.bytes) | map(.repo) | .[0:4] | join(", "))
+      });
 
   (totals) as $totals
   | ([$totals[].bytes] | add) as $sum
@@ -50,6 +57,7 @@ rows_json="$(jq '
             share: (.bytes / $sum * 100),
             repos: $repo_idx[.lang].repos
           })
+        | map(select(.share >= 1.0))
       )
     }
 ' "$payload_file")"
@@ -64,10 +72,9 @@ fi
 generated_file="$(mktemp)"
 {
   echo "<!-- TECH_STACK_START -->"
-  echo "_Data source: GitHub Linguist bytes from \`Sinan\`, \`VibeBar\`, \`TrustSkill\`, and \`jsonrpc4cj\`._"
-  echo "_Last refreshed: $(date '+%Y-%m-%d %H:%M %Z')._"
+  echo "_GitHub Linguist bytes from active repositories · refreshed $(date '+%Y-%m-%d')._"
   echo
-  echo "| Language | Share (bytes) | Repositories |"
+  echo "| Language | Share | Key Repos |"
   echo "| --- | ---: | --- |"
 
   jq -r '.rows[] | "| \(.lang) | \(.share | tostring) | \(.repos) |"' <<<"$rows_json" \
@@ -75,14 +82,6 @@ generated_file="$(mktemp)"
         share_clean="$(awk -v n="$(echo "$share" | xargs)" 'BEGIN { printf "%.1f%%", n }')"
         printf "| %s | %s | %s |\n" "$(echo "$lang" | xargs)" "$share_clean" "$(echo "$repos" | xargs)"
       done
-
-  if [[ "$cangjie_file_count" -gt 0 ]]; then
-    echo "| Cangjie* | N/A | jsonrpc4cj |"
-  fi
-  echo
-  if [[ "$cangjie_file_count" -gt 0 ]]; then
-    echo "\\* GitHub Linguist currently does not classify Cangjie, so percentage shares exclude \`.cj\` files."
-  fi
   echo "<!-- TECH_STACK_END -->"
 } > "$generated_file"
 
