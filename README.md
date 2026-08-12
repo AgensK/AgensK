@@ -26,15 +26,12 @@ I build at the intersection of AI and developer tooling — agents, automation, 
 
 ## Upstream Contributions
 
-Bug reports and proposals landed in projects I use:
-
 - [**facebook/astryx**](https://github.com/facebook/astryx) — three confirmed UI bugs with minimal reproductions ([#4830](https://github.com/facebook/astryx/issues/4830), [#4833](https://github.com/facebook/astryx/issues/4833), [#4834](https://github.com/facebook/astryx/issues/4834)), all fixed upstream within days
-- [**AlDanial/cloc**](https://github.com/AlDanial/cloc) — proposed Cangjie language support ([#895](https://github.com/AlDanial/cloc/issues/895)), now shipped
-- Bug reports in [tw93/Mole](https://github.com/tw93/Mole/issues/1108), [doocs/md](https://github.com/doocs/md/issues/1144), and [666ghj/BettaFish](https://github.com/666ghj/BettaFish/issues/244)
 
 ## Current Focus
 
 - 🚀 Shipping AI-native products and tools, full-time
+- 🧩 Building [PiGUI](https://github.com/BubblePtr/PiGUI) in the open, together with the Pi community
 - 🎬 Daily short-form videos recommending open source projects on X
 - ✍️ Writing about AI engineering, indie dev, and systems thinking at [kieran.build](https://kieran.build)
 - 🧪 Experimenting with multi-agent collaboration, voice agents, and LLM observability
